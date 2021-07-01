@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>DOM ELEMENT</title>
+
+</head>
+<style type="text/css">
+	.card{
+		text-align: center;
+		padding: 10px;
+		background-color: lightgrey;
+	}
+
+	ul {
+		list-style: none;
+	}
+
+	.task{
+
+		display: flex;
+		justify-content: space-between;
+
+	}
+
+	.delete{
+		margin-right: 5px;
+		padding: 10px;
+		background-color: red;
+		color: white;
+		border: none;
+		border-radius: 5px;
+	}
+</style>
+<body>
+
+	<div class="card">
+		<form action="">
+			<input type="text" class="inputEl">
+
+			<input type="submit" value="Add Task" class="submitEl">
+		</form>
+	</div>
+
+	<div class="task">
+		
+	<div id="incomplete">
+		<h3>InComplete Tasks</h3>
+		<ul class="show">
+			
+		</ul>
+	</div>
+
+	<div id="complete">
+		<h3>Complete Task</h3>
+		<ul>
+			
+		</ul>
+	</div>
+	</div>
+
+
+<script src="main.js"></script>
+</body>
+</html>
